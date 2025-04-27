@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1f242d;
+    color: #fff;
+}
+
+.aboutMainBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 60px 10%;
+}
+
+.aboutBox {
+    max-width: 800px;
+    width: 100%;
+    background: #292e38;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.aboutBox h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #7cf03d;
+}
+
+.skillsBox {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.skillsBox p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.skillsBox span {
+    font-weight: bold;
+    color: #dcdcdc;
+}
+
+.aboutTextBox span {
+    font-weight: bold;
+    color: #7cf03d;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .aboutMainBox {
+        padding: 40px 5%;
+    }
+
+    .aboutBox {
+        padding: 20px;
+    }
+
+    .aboutTextBox p {
+        font-size: 16px;
+        line-height: 1.4;
+        text-align: left;
+    }
+
+    .aboutBox h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aboutMainBox {
+        padding: 30px 5%;
+    }
+
+    .aboutBox {
+        padding: 15px;
+    }
+
+    .aboutTextBox p {
+        font-size: 14px;
+        line-height: 1.3;
+        text-align: left;
+    }
+
+    .aboutBox h1 {
+        font-size: 24px;
+    }
+}

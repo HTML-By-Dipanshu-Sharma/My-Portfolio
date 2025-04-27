@@ -1,0 +1,19 @@
+section {
+    padding-top: 5.2vh;
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding-top: 10vh;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        height: 80vh;
+        padding-top: 10vh;
+        height: auto;
+    }
+}
